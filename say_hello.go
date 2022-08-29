@@ -1,5 +1,6 @@
 package golangmodule
 
-func Sayname() string {
-	return "Hello name"
+func Sayname(param string) string {
+	result := "Hello" + param
+	return result
 }
